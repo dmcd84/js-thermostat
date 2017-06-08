@@ -28,9 +28,16 @@
         <button id='up'>+</button>
         <button id='reset'>RESET Temp</button>
         <button id='down'>-</button>
+         <label class="switch switch-green">
+           <input type="checkbox" class="switch-input" id='powersaving-on' checked>
+           <span class="switch-label" data-on="On" data-off="Off"></span>
+           <span class="switch-handle"></span>
+         </label>
+        power saving mode is <p id="power-saving-status">On</p>
+
+
+
       </p>
-      power saving mode is <p id="power-saving-status">On</p>
-      <button id='powersaving-on'>PSM on/off</button>
       <!-- <button id='status'>status</button> -->
 <div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
