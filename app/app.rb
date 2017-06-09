@@ -13,12 +13,11 @@ get '/' do
 end
 
 get '/temperature' do
-  @user_temp = 20
-  @user_temp.to_json
+  JSON.parse(File.read("userThermostat.json"))["temp"]
 end
 
 post '/temperature' do
-  p @user_temp = JSON.parse(params["temp"])
+  File.write("userThermostat.json", params.to_json)
   redirect '/temperature'
 end
 
