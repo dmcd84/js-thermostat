@@ -13,7 +13,8 @@ get '/' do
 end
 
 get '/temperature' do
-  30.to_json
+  @user_temp = 30
+  @user_temp.to_json
 end
 
 
