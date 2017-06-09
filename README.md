@@ -28,3 +28,4 @@ In Week 5 we are building a simple JavaScript thermostat using Test-Driven Devel
 - Dom McDonnell [@dmcd84](https://github.com/dmcd84)
 - Mario Ribeiro [@marioribeiro](https://github.com/marioribeiro)
 - Jade Alvares [@jjadeseravla](https://github.com/jjadeseravla)
+- Chris Harrop [@bannastre](https://github.com/bannastre)
